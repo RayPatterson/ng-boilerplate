@@ -17,18 +17,19 @@
  * project should be imported as the rest are just wasting space.
  */
 
-@import 'sass-bootstrap/lib/_mixins';
-@import 'sass-bootstrap/lib/_normalize';
-@import 'sass-bootstrap/lib/_utilities';
-@import 'sass-bootstrap/lib/_scaffolding';
-@import 'sass-bootstrap/lib/_type';
-@import 'sass-bootstrap/lib/_grid';
-@import 'sass-bootstrap/lib/_forms';
-@import 'sass-bootstrap/lib/_navs';
-@import 'sass-bootstrap/lib/_navbar';
-@import 'sass-bootstrap/lib/_buttons';
-@import 'sass-bootstrap/lib/_button-groups';
-@import 'sass-bootstrap/lib/_dropdowns';
+@import 'sass-bootstrap/lib/bootstrap';
+// @import 'sass-bootstrap/lib/_mixins';
+// @import 'sass-bootstrap/lib/_normalize';
+// @import 'sass-bootstrap/lib/_utilities';
+// @import 'sass-bootstrap/lib/_scaffolding';
+// @import 'sass-bootstrap/lib/_type';
+// @import 'sass-bootstrap/lib/_grid';
+// @import 'sass-bootstrap/lib/_forms';
+// @import 'sass-bootstrap/lib/_navs';
+// @import 'sass-bootstrap/lib/_navbar';
+// @import 'sass-bootstrap/lib/_buttons';
+// @import 'sass-bootstrap/lib/_button-groups';
+// @import 'sass-bootstrap/lib/_dropdowns';
 
 
 /**
@@ -156,5 +157,5 @@ h2 {
  * TODO: In a later version of this boilerplate, I'd like to automate this.
  */
 
-@import '../app/home/home.scss';
+@import 'app/home/home';
 

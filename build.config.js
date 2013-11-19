@@ -34,7 +34,7 @@ module.exports = {
     less: 'src/less/main.less',
     sass: {
       specify: 'src/sass/main',
-      import_path: ['vendor']
+      import_path: ['src', 'vendor']
     }
   },
 
