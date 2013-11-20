@@ -10,6 +10,7 @@ module.exports = {
       sassDir: '.',
       specify: '<%= app_files.sass.specify %>.scss',
       cssDir: '<%= build_dir %>/assets/',
+      imagesDir: 'assets/img/',
       importPath: '<%= app_files.sass.import_path %>',
       environment: 'production',
       raw: "preferred_syntax = :scss\n"
@@ -22,6 +23,7 @@ module.exports = {
       sassDir: '.',
       specify: '<%= app_files.sass.specify %>.scss',
       cssDir: '<%= build_dir %>/assets/',
+      imagesDir: 'assets/img/',
       importPath: '<%= app_files.sass.import_path %>',
       environment: 'development',
       raw: "preferred_syntax = :scss\n"
